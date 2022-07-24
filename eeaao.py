@@ -18,4 +18,6 @@ c = Counter(tokens)
 c.most_common(100)
 
 #plot
-dispersion_plot(lctokens,['mandarin','cantonese','chinese','waymond','evelyn','joy','jobu','becky','gong','mom','dad','father','party','abandon','alpha','alphaverse','gay','pig','girlfriend','bagel','feel','eyes','kind','earpiece','hotdog','feet','love'])
+dispersion_plot(lctokens,['mandarin','cantonese','chinese','waymond','alphawaymond','evelyn',
+  'joy','jobu','becky','gonggong','alphagonggong','deirdre','hotdog','party','alpha',
+  'alphaverse','gay','pig','bagel','feel','eyes','kind','earpiece','feet','love','raccoon'])
