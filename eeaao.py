@@ -15,7 +15,7 @@ lctokens = [w.lower() for w in tokens]
 # ordered by frequency
 from collections import Counter
 c = Counter(tokens)
-c.most_common(100)
+print(c.most_common(100))
 
 #plot
 dispersion_plot(lctokens,['mandarin','cantonese','chinese','waymond','alphawaymond','evelyn',
